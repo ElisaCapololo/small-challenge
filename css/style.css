@@ -8,10 +8,22 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: baseline;
+    margin-bottom: 10px;
 }
 .h-store{
     display: flex;
     justify-content: space-between;
+}
+.store-count{
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    background-color: #FDAF01;
+    border-radius: 40px;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    color: #FFFFFF;
 }
 .h-store--search{
     margin-left: 10px;
